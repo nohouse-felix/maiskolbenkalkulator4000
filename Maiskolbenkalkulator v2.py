@@ -77,7 +77,7 @@ def get_flaeche():
     
     # Angabe in Quadratmetern
     elif flaeche_input_type == "2":
-        flaeche = input("\nÜber wie viele Quadratmeter streckt sich das Maisfeld? ")
+        flaeche = input("\nÜber wie viele Quadratmeter streckt sich das Maisfeld?\n")
         # Wenn die Fläche kleiner oder gleich 0 ist, wird eine Fehlermeldung ausgegeben und der Vorgang wiederholt.
         if float(flaeche) <= 0:
             print("\nUngültige Eingabe. Bitte versuche es erneut.")
